@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-import java.util.*;
 public class star {
     public static void main(String[] args) {
         System.out.println("*********    ***      *        *");
@@ -14,3 +12,4 @@ public class star {
     }
 
 }
+//这只是一个输出测试程序

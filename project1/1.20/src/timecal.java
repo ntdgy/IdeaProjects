@@ -15,3 +15,4 @@ public class timecal {
 
     }
 }
+//输入秒数，输出小时和分钟
