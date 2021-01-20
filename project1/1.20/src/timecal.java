@@ -10,9 +10,6 @@ public class timecal {
         min = c%60;
         h = c/60;
         System.out.printf("the equivalent time is %d hours %d minutes %d seconds",h,min,sec ) ;
-
-
-
     }
 }
 //输入秒数，输出小时和分钟
