@@ -12,7 +12,7 @@ public class personinfo {
         System.out.println("please inout your weight in kg" );
         double weight = s.nextDouble();
         System.out.println("please input your highest grade");
-        String grade = s.nextLine();
+        String grade = s.next();
         System.out.println("your name:" + name );
         System.out.println("your student id:" + id );
         System.out.println("your age:" + age );
