@@ -1,7 +1,7 @@
 import java.util.*;
 public class luogu1116 {
     int count = 0;
-    public  void paixu(int,int) {
+    public static void paixu(int,int) {
 
     }
     public static void main(String[] args) {
