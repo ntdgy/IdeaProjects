@@ -6,7 +6,8 @@ public class rectangle1 {
         double a = s.nextDouble();
         System.out.println("please enter the height of a rectangle");
         double b = s.nextDouble();
-        double area = 0.5*a*b;
-        System.out.printf("the area og the rectangle is %f\n" , area);
+        double area = a*b;
+        System.out.printf("the area of the rectangle is %.4f\n" , area);
+        System.out.printf("the perimeter of the rectangle is %.4f\n" , 2*a*b);
     }
 }
