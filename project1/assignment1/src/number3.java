@@ -11,9 +11,18 @@ import java.util.*;
             int a3 = a2 - a1;
             int b3 = b2 - b1;
             int c3 = c2 - c1;
+            if (c3<0){
+                c3 +=60;
+                b3 --;
+            }
+            if (b3<0){
+                b3 +=60;
+                a3--;
+            }
             if (a3!=0) System.out.print(a3 +"h");
             if (b3!=0) System.out.print(b3 +"m");
             if (a3==0&b3==0&&c3==0) System.out.print("0s");
+            if (c3!=0) System.out.print(c3 +"s");
 
         }
 }
