@@ -5,8 +5,8 @@ public class number1 {
         String name = s.next();
         int id = s.nextInt();
         if (id>=1500000&&id<12100000) {
-            System.out.println(name + ",welcome to Baoneng City!");
-            System.out.println(name + " " + id);
-        }
+            System.out.println(name + ", welcome to Baoneng City!");
+         }
+        else    System.out.println(id);
     }
 }
