@@ -19,9 +19,9 @@ import java.util.*;
                 b3 +=60;
                 a3--;
             }
-            if (a3!=0) System.out.print(a3 +"h");
+            if (a3!=0) b3+=60*a3;
             if (b3!=0) System.out.print(b3 +"m");
-            if (a3==0&b3==0&&c3==0) System.out.print("0s");
+            if (b3==0&&c3==0) System.out.print("0s");
             if (c3!=0) System.out.print(c3 +"s");
 
         }
