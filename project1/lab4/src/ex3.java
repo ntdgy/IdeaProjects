@@ -2,7 +2,6 @@ import java.util.*;
 public class ex3 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-
         System.out.println("please input n");
         int n = s.nextInt();
         double k=0;
