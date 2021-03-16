@@ -21,14 +21,25 @@ public class number4 {
         int starttime = Integer.parseInt(start.toString());
         int endtime = Integer.parseInt(end.toString());
         int during = starttime - endtime;
-        if(during >= 0)
-        {
-            int month = starttime/10%10*10+starttime%10;//月份
-            int day = starttime/1000%10*1000+starttime/100%10*100;//日期
-            month = month/10%10+month%10*10;
-            day = day/10%10+month%10*10;
-            System.out.printf("%d %d",month,day);
-        }
+        int month,day,day0;//day0为
+        month = starttime/10%10*10+starttime%10;//月份
+        day = starttime/1000%10*1000+starttime/100%10*100;//日期
+        month = month/10%10+month%10*10;
+        day = day/10%10+month%10*10;
+        System.out.printf("%d %d",month,day);
+        if(month==1)  day0 = 31;
+        else if(month==2)  day0 = 28;
+        else if(month==3)  day0 = 31;
+        else if(month==4)  day0 = 30;
+        else if(month==5)  day0 = 31;
+        else if(month==6)  day0 = 30;
+        else if(month==7)  day0 = 31;
+        else if(month==8)  day0 = 31;
+        else if(month==9)  day0 = 30;
+        else if(month==10)  day0 = 31;
+        else if(month==11)  day0 = 30;
+        else if(month==12)  day0 = 31;
+
 
 
 
