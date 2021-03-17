@@ -18,7 +18,7 @@ public class number1 {
         else {
            return b;
         }
-        return 0;
+        return 1;
     }
 
 }
