@@ -8,7 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/assignment2.iml" filepath="$PROJECT_DIR$/assignment2.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-A/assignment2new/assignment2new.iml" filepath="$PROJECT_DIR$/java-A/assignment2new/assignment2new.iml" />
       <module fileurl="file://$PROJECT_DIR$/java a.iml" filepath="$PROJECT_DIR$/java a.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lab4/lab4.iml" filepath="$PROJECT_DIR$/lab4/lab4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab/lab.iml" filepath="$PROJECT_DIR$/lab/lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab/lab4/lab4.iml" filepath="$PROJECT_DIR$/lab/lab4/lab4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab/lab5/lab5.iml" filepath="$PROJECT_DIR$/lab/lab5/lab5.iml" />
       <module fileurl="file://$PROJECT_DIR$/洛谷/test/test.iml" filepath="$PROJECT_DIR$/洛谷/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/洛谷/洛谷.iml" filepath="$PROJECT_DIR$/洛谷/洛谷.iml" />
     </modules>
